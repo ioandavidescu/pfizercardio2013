@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns= "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "ro.infomark.pfizer2013" version = "1.0.0">
+<name>Pfizer Cardio 2013</name>
+<description>Aplicatia farmaceutica</description>
+<author href="http://www.infomark.ro" email="office@infomark.ro">INFOMARK</author>
+<feature name="http://api.phonegap.com/1.0/device" />
+<preference name="permissions"                value="none"/>
+
+    <preference name="phonegap-version"           value="2.9.0" />          
+    <preference name="orientation"                value="landscape" />        
+    <preference name="target-device"              value="tablet" />     
+    <preference name="fullscreen"                 value="true" />           
+    <preference name="android-minSdkVersion"      value="7" />              
+    <preference name="android-installLocation"    value="auto" />           
+
+    <icon src="icon.png" />
+    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    <gap:splash src="res/screen/android/screen-ldpi-landscape.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-landscape.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-landscape.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:density="xhdpi" />
+    <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
+
+</widget>

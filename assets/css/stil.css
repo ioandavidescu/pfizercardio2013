@@ -1,0 +1,40 @@
+@charset "utf-8";
+#container {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-image: url(../img/global/back.fw.png);
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+
+#sortis {
+	top: 161px;
+	left: -342px;
+	position: absolute;
+	background-image: url(../img/global/sortis.png);
+	background-repeat: no-repeat;
+	width: 315px;
+	height: 455px;
+}
+
+#caduet{
+	top: 189px;
+	left: -320px;
+	position: absolute;
+	background-image: url(../img/global/caudet.png);
+	background-repeat: no-repeat;
+	width: 315px;
+	height: 455px;
+}
+
+#norvasc {
+	top: 159px;
+	left: -363px;
+	position: absolute;
+	background-image: url(../img/global/norvasc.png);
+	background-repeat: no-repeat;
+	width: 315px;
+	height: 455px;
+}
